@@ -3,7 +3,7 @@
 ################################################################################
 
 module "ec2" {
-  source = "github.com/Coalfire-CF/terraform-aws-ec2"
+  source = "terraform-aws-modules/ec2-instance/aws"
 
   name                        = "ec2-${var.resource_prefix}"
   ami                         = data.aws_ami.redhat_ami.id

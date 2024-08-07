@@ -77,7 +77,7 @@ module "asg" {
 # Supporting Resources
 ################################################################################
 module "asg_sg" {
-  source = "github.com/Coalfire-CF/terraform-aws-securitygroup"
+  source = "terraform-aws-modules/security-group/aws"
   name   = "asg-sg"
   vpc_id = module.vpc.vpc_id
 

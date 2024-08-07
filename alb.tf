@@ -76,7 +76,7 @@ resource "aws_lb_listener" "https" {
 # Supporting Resources
 ################################################################################
 module "alb_sg" {
-  source  = "github.com/Coalfire-CF/terraform-aws-securitygroup"
+  source  = "terraform-aws-modules/security-group/aws"
   name        = "alb-sg"
   vpc_id      = module.vpc.vpc_id
 

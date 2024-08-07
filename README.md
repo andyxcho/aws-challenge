@@ -1,4 +1,4 @@
-# Coalfire - AWS Technical Challenge
+# AWS Technical Challenge
 
 ## Description
 
@@ -15,10 +15,10 @@ When running the code, make sure to update the tfvars and generate an EC2 key pa
 Note that `terraform destroy` will NOT remove the key pair from the AWS account as it is not tracked by state.
 
 ### Screenshot
-![Screenshot](screenshot.png)
+![Screenshot](login-screenshot.png)
 
 ### Diagram
-![Diagram](acho-coalfire-diagram.png)
+![Diagram](aws-diagram.png)
 
 
 
